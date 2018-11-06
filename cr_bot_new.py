@@ -31,6 +31,7 @@ def findLine(fileCheck, keyWord):
         else:
             index =  index + 1
 
+#dont think this is used
 def check(fileCheck, keyWord):
     datafile = open(fileCheck)
     for line in datafile:
