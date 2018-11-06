@@ -1,4 +1,4 @@
-from discord.ext import commands
+from discord.ext import commands #not sure why i have all these imports but i dont want to break anything so they stay
 import logging, traceback
 import os, sys
 import time
@@ -112,8 +112,8 @@ newline = '\n'
 @client.event
 async def on_ready():
     print('Logged in as')
-    print('testing stuff#0444')
-    print('304225937330012160')
+    print('testing stuff#0444') #outdated, need to update
+    print('304225937330012160') #outdated
     print('------')
     await client.change_presence(game=discord.Game(name='you like a fiddle'))
 
@@ -179,8 +179,7 @@ async def on_message(message):
 
 
 
-
-
+    #soon to be deprecated
     elif message.content.startswith('!artificeralch'):
         await client.send_message(message.channel, 'Sending "ARTIFICER.ALCHEMIST" charachter sheet...')
         await client.send_file(message.channel, 'Class_Character_Sheet_Artificer-Alchemist_V11_Fillable.pdf')
