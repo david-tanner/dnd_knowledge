@@ -262,4 +262,4 @@ async def on_message(message):
 
 
 
-client.run('NDk3MjY2Mjc4NTA4MjY1NDgy.Dpcshg.Xmr6tZy8qbv05AxdbZhUWfO0iCM')
+client.run() #client key here
